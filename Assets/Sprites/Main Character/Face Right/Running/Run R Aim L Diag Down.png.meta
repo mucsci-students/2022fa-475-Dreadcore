@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 4f4fa53f3779a4d4a88cab4dc122f6e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8150505818334125564
+    second: Run R Aim L Diag Down_0
+  - first:
+      213: 6735191445716692313
+    second: Run R Aim L Diag Down_1
+  - first:
+      213: -6821928900059602444
+    second: Run R Aim L Diag Down_2
+  - first:
+      213: 3168173955943343665
+    second: Run R Aim L Diag Down_3
+  - first:
+      213: 1386775187070378970
+    second: Run R Aim L Diag Down_4
+  - first:
+      213: -8916167365919435032
+    second: Run R Aim L Diag Down_5
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 8
+        width: 48
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6145835, y: 0.5179594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a076342693ee80800000000000000
+      internalID: -8150505818334125564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 48
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6154172, y: 0.55547184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d61307fe4387d50800000000000000
+      internalID: 6735191445716692313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 4
+        width: 48
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6137511, y: 0.5554719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e9fc3fc3a351a0800000000000000
+      internalID: -6821928900059602444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 4
+        width: 48
+        height: 53
+      alignment: 9
+      pivot: {x: 0.61416817, y: 0.5573586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a5ae5d6d97fb20800000000000000
+      internalID: 3168173955943343665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 8
+        width: 48
+        height: 49
+      alignment: 9
+      pivot: {x: 0.61541873, y: 0.5200002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e7a86fa0de3310800000000000000
+      internalID: 1386775187070378970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run R Aim L Diag Down_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4
+        width: 48
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6147912, y: 0.55646545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e611744509634480800000000000000
+      internalID: -8916167365919435032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

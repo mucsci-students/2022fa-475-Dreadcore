@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 16f55e7760fdc524b9f81abff9e61eec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -731715057258847788
+    second: Run Right Aim Left_0
+  - first:
+      213: 1439478341976761041
+    second: Run Right Aim Left_1
+  - first:
+      213: 8839542418405833026
+    second: Run Right Aim Left_2
+  - first:
+      213: -2803180180135276143
+    second: Run Right Aim Left_3
+  - first:
+      213: 4541875546158292697
+    second: Run Right Aim Left_4
+  - first:
+      213: -8247544318997889799
+    second: Run Right Aim Left_5
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run Right Aim Left_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.66322076, y: 0.4988119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1284f380d68d5f0800000000000000
+      internalID: -731715057258847788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Right Aim Left_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6614197, y: 0.50243783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2a463eced0af310800000000000000
+      internalID: 1439478341976761041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Right Aim Left_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.66238767, y: 0.5005109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249b312eefc5caa70800000000000000
+      internalID: 8839542418405833026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Right Aim Left_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6628296, y: 0.501746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911f916a7a1919d0800000000000000
+      internalID: -2803180180135276143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Right Aim Left_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.66258043, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de5ccecebbf70f30800000000000000
+      internalID: 4541875546158292697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Right Aim Left_5
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 8
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6633079, y: 0.5006221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcf6d4a326da8d80800000000000000
+      internalID: -8247544318997889799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
