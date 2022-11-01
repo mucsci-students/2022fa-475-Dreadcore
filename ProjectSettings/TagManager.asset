@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - PlayerBullet
+  - MouseCancel
+  - Pit
   layers:
   - Default
   - TransparentFX
@@ -42,6 +44,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: SecondBackground
+    uniqueID: 924355475
     locked: 0
   - name: Background
     uniqueID: 1500057265
