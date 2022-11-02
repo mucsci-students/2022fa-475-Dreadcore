@@ -6,6 +6,7 @@ public class Interact : MonoBehaviour
 {
     [SerializeField] private bool triggerActive = false;
     private PortalButton btn;
+    private Portal portal;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -30,7 +31,9 @@ public class Interact : MonoBehaviour
         {
             // TODO : activate the portal to next level when button is enabled
             btn = gameObject.GetComponent<PortalButton>();
+            portal = gameObject.GetComponent<Portal>();
             btn.ChangeSprite();
+            portal.isActive = true;
         }
     }
 }
