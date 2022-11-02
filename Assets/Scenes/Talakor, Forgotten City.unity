@@ -6601,6 +6601,7 @@ GameObject:
   - component: {fileID: 763758297}
   - component: {fileID: 763758296}
   - component: {fileID: 763758298}
+  - component: {fileID: 763758299}
   m_Layer: 0
   m_Name: PortalButton
   m_TagString: Untagged
@@ -6749,6 +6750,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggerActive: 0
+--- !u!114 &763758299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763758293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb3ab73eed26840b21bec578800f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActive: 0
+  spriteRenderer: {fileID: 763758294}
+  activeSprite: {fileID: -6018089406761310889, guid: bb48973793908de9f84887f368a3b663, type: 3}
+  inactiveSprite: {fileID: -4532863931888098850, guid: bb48973793908de9f84887f368a3b663, type: 3}
 --- !u!1 &791795864
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     [SerializeField] private bool triggerActive = false;
+    private PortalButton btn;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,8 +28,9 @@ public class Interact : MonoBehaviour
     {
         if(triggerActive && Input.GetKeyDown(KeyCode.E))
         {
-            // TODO : Interact with portal button and activate the portal to next level
-            print("INTERACTED");
+            // TODO : activate the portal to next level when button is enabled
+            btn = gameObject.GetComponent<PortalButton>();
+            btn.ChangeSprite();
         }
     }
 }
