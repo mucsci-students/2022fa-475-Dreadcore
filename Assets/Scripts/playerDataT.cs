@@ -39,9 +39,9 @@ public class playerDataT : MonoBehaviour
         health = maxHealth;
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if(collision.gameObject.tag == "Monster");
+        if(other.gameObject.CompareTag("Monster"))
         {
             Debug.Log("apparently running into the monster constantly.");
             TakeDamage(1);
