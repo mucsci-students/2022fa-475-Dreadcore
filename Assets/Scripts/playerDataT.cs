@@ -26,6 +26,7 @@ public class playerDataT : MonoBehaviour
     //keep track of when our player takes damage
     public void TakeDamage(int damageAmt)
     {
+        Debug.Log("taking Damage from something");
         health -= damageAmt;
         if (health <= 0)
         {
@@ -42,6 +43,7 @@ public class playerDataT : MonoBehaviour
     {
         if(collision.gameObject.tag == "Monster");
         {
+            Debug.Log("apparently running into the monster constantly.");
             TakeDamage(1);
         }
     }

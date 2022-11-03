@@ -24,10 +24,6 @@ public class EnemyDamage : MonoBehaviour
         {
             plyrData.TakeDamage(damage);
         }*/
-        if(collision.gameObject.tag == "PlayerBullet")
-        {
-            AITakeDamage(1);
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
