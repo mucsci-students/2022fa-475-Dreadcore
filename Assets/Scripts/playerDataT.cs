@@ -6,7 +6,7 @@ using TMPro;
 
 public class playerDataT : MonoBehaviour
 {
-    [SerializeField] public int health, maxHealth = 10, damage;
+    [SerializeField] public int health, maxHealth = 10, damage, healthItem;
     private playerRespawn respPlayer;
 
     private void Awake()
@@ -47,10 +47,30 @@ public class playerDataT : MonoBehaviour
             TakeDamage(1);
         }
     }
+    public void UseHealthItem()
+    {
+        if (health >= maxHealth)
+        {
+            healthItem = healthItem;
+         
+        }
+        else if(health <= maxHealth)
+        {
+            health += 25;
+            if (health >= maxHealth)
+            {
+                health = maxHealth;
+            }
+            healthItem--;
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("h"))
+        {
+            UseHealthItem();
+        }
     }
 }

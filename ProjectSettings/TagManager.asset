@@ -10,6 +10,7 @@ TagManager:
   - Pit
   - Checkpoint
   - Monster
+  - hpItem
   layers:
   - Default
   - TransparentFX
