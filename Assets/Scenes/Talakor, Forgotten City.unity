@@ -6057,7 +6057,6 @@ GameObject:
   - component: {fileID: 284442104}
   - component: {fileID: 284442107}
   - component: {fileID: 284442106}
-  - component: {fileID: 284442108}
   - component: {fileID: 284442109}
   - component: {fileID: 284442110}
   - component: {fileID: 284442111}
@@ -6245,19 +6244,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &284442108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284442103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59ad651b10283414783641c007b08d3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadScene: TwistedCave
 --- !u!95 &284442109
 Animator:
   serializedVersion: 3
@@ -6307,6 +6293,7 @@ MonoBehaviour:
   isActive: 0
   animator: {fileID: 284442109}
   portalButton: {fileID: 763758299}
+  nextLevel: {fileID: 0}
 --- !u!1 &378716153
 GameObject:
   m_ObjectHideFlags: 0
@@ -6562,7 +6549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709088316}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -12, z: 0}
+  m_LocalPosition: {x: 0, y: -11.5, z: 0}
   m_LocalScale: {x: 100, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 539517167}
