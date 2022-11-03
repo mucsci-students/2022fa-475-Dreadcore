@@ -29,33 +29,22 @@ public class playerDataT : MonoBehaviour
         health -= damageAmt;
         if (health <= 0)
         {
+            //others scripts Respawn for checkpoints etc.
             respPlayer.Respawn();
         }
-    }
-
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        /*if (collider.gameObject.Tag == "enemy")
-        {
-            
-        }*/
     }
     public void Respawn()
     {
         health = maxHealth;
         
     }
-
-
-
-
-
-
-
-
-
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Monster");
+        {
+            TakeDamage(1);
+        }
+    }
 
     // Update is called once per frame
     void Update()
