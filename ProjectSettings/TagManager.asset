@@ -51,6 +51,9 @@ TagManager:
   - name: Background
     uniqueID: 1500057265
     locked: 0
+  - name: Middleground
+    uniqueID: 3428187329
+    locked: 0
   - name: Platforms
     uniqueID: 1187420345
     locked: 0
