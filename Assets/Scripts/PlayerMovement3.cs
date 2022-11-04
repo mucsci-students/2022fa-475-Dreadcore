@@ -66,7 +66,7 @@ public class PlayerMovement3 : MonoBehaviour
   private SpiderMode spiderController;
   public Transform spiderTransform;
 
-  private bool morphing = false;
+  public bool morphing = false;
   private bool returning = false;
   private float morphTime = 0f;
   [SerializeField] private float maxMorphTime;
@@ -157,6 +157,7 @@ public class PlayerMovement3 : MonoBehaviour
       if(Input.GetKeyDown(KeyCode.F) && playerOnGround && !keyCooldown && spiderModeUnlocked)
       {
         morphing = true;
+        spiderMode = true;
         animator.spiderMorph();
         controllerEnabled = false;
         keyCooldown = true;

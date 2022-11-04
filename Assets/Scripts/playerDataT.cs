@@ -37,7 +37,6 @@ public class playerDataT : MonoBehaviour
     public void Respawn()
     {
         health = maxHealth;
-        
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
