@@ -447,9 +447,12 @@ GameObject:
   m_Component:
   - component: {fileID: 182983959}
   - component: {fileID: 182983958}
+  - component: {fileID: 182983961}
+  - component: {fileID: 182983960}
+  - component: {fileID: 182983962}
   m_Layer: 0
-  m_Name: power-up-1
-  m_TagString: Untagged
+  m_Name: power-up
+  m_TagString: Powerup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,6 +524,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &182983960
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182983957}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &182983961
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182983957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.4375, y: 1.3125}
+    newSize: {x: 1.4375, y: 1.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.08454895, y: 0.15701795}
+      - {x: -0.34407806, y: -0.088998556}
+      - {x: -0.33991623, y: -0.2823987}
+      - {x: -0.28930473, y: -0.34796715}
+      - {x: -0.15740204, y: -0.34911907}
+      - {x: -0.09823227, y: -0.3028052}
+      - {x: 0.11409569, y: -0.30265105}
+      - {x: 0.28853607, y: -0.29390478}
+      - {x: 0.3537197, y: -0.22105062}
+      - {x: 0.35601997, y: -0.09144938}
+      - {x: 0.09375, y: 0.15931845}
+--- !u!114 &182983962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182983957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287c9b12c5c85711c862c47888db7244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acquired: 0
+  name: Spider
+  player: {fileID: 813016485}
 --- !u!1 &238011553
 GameObject:
   m_ObjectHideFlags: 0

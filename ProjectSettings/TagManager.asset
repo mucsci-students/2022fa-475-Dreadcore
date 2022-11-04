@@ -8,6 +8,7 @@ TagManager:
   - PlayerBullet
   - MouseCancel
   - Pit
+  - Powerup
   layers:
   - Default
   - TransparentFX
