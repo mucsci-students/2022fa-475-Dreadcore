@@ -45,17 +45,19 @@ public class PlayerMovement3 : MonoBehaviour
   
   //Shooting
   public GameObject bullet;
+  public GameObject dualBeam;
   public Transform bulletTransform;
-  public bool canFire;
+  private bool canFire;
   private float timer = 0f;
-  [SerializeField] public float timeBetweenFiring;
+  [SerializeField] private float timeBetweenFiring;
   
   //Upgrades
   public bool doubleJumpUnlocked = false;
   public bool spiderModeUnlocked = false;
+  public bool dualBeamUnlocked = false;
   
   //Double Jump
-  public bool doubleJump = true;
+  private bool doubleJump = true;
 
   //Spider Mode
   public bool spiderMode = false;
@@ -64,10 +66,13 @@ public class PlayerMovement3 : MonoBehaviour
   private SpiderMode spiderController;
   public Transform spiderTransform;
 
-  public bool morphing = false;
+  private bool morphing = false;
+  private bool returning = false;
   private float morphTime = 0f;
-  public float maxMorphTime;
-  public bool keyCooldown = false;
+  [SerializeField] private float maxMorphTime;
+  private bool keyCooldown = false;
+
+  public bool spiderInRange = false;
 
   void Start()
   {
@@ -107,7 +112,7 @@ public class PlayerMovement3 : MonoBehaviour
 
       animator.updateSpawnPose(startPose);
       
-      if ((Input.GetButtonDown("Jump") && playerOnGround) || (Input.GetButtonDown("Jump") && doubleJump))
+      if ((Input.GetButtonDown("Jump") && playerOnGround) || (Input.GetButtonDown("Jump") && doubleJump && doubleJumpUnlocked))
       {
         if(!playerOnGround)
         {
@@ -142,11 +147,14 @@ public class PlayerMovement3 : MonoBehaviour
       {
         canFire = false;
         startPose = false;
-        Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+        if(dualBeamUnlocked)
+          Instantiate(dualBeam, bulletTransform.position, Quaternion.identity);
+        else
+          Instantiate(bullet, bulletTransform.position, Quaternion.identity);
       }
 
       //Spider Mode
-      if(Input.GetKeyDown(KeyCode.F) && playerOnGround && !keyCooldown)
+      if(Input.GetKeyDown(KeyCode.F) && playerOnGround && !keyCooldown && spiderModeUnlocked)
       {
         morphing = true;
         animator.spiderMorph();
@@ -194,6 +202,7 @@ public class PlayerMovement3 : MonoBehaviour
 
   public void torsoRecall()
   {
+    animator.spiderReturn();
     mainCam.transform.position = cameraTransform.position;
     controllerEnabled = true;
     spiderMode = false;

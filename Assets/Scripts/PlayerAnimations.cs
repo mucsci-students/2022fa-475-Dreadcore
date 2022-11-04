@@ -13,18 +13,19 @@ public class PlayerAnimations : MonoBehaviour
   private float speed = 0f;
   
   //determines if the legs should turn backwards if the aim is backwards.
-  bool turnedLeft = false;
-  bool turnedRight = false;
+  private bool turnedLeft = false;
+  private bool turnedRight = false;
 
   //allows the turning animations to play if the player is aiming backwards and is idle on the ground.
-  bool playing = false;
+  private bool playing = false;
 
   //Animation states
   private string currentState;
-  const string IDLE_AIM_DOWN = "Player_Idle_Aim_Down";
+  private const string IDLE_AIM_DOWN = "Player_Idle_Aim_Down";
 
   //Right
   const string SPIDER_MORPH_R = "Player_Spider_Morph_R";
+  const string SPIDER_RETURN_R = "Player_Spider_Return_R";
   
   const string RUN_R_AIM_UP = "Player_Run_R_Aim_Up";
   const string JUMP_R_AIM_UP = "Player_Jump_R_Aim_Up";
@@ -62,6 +63,7 @@ public class PlayerAnimations : MonoBehaviour
   
   //Left
   const string SPIDER_MORPH_L = "Player_Spider_Morph_L";
+  const string SPIDER_RETURN_L = "Player_Spider_Return_L";
 
   const string RUN_L_AIM_UP = "Player_Run_L_Aim_Up";
   const string JUMP_L_AIM_UP = "Player_Jump_L_Aim_Up";
@@ -566,6 +568,14 @@ public class PlayerAnimations : MonoBehaviour
     {
       ChangeAnimationState(SPIDER_MORPH_R);
     }
+  }
+
+  public void spiderReturn()
+  {
+    if(!isFacingRight)
+      ChangeAnimationState(SPIDER_RETURN_L);
+    else
+      ChangeAnimationState(SPIDER_RETURN_R);
   }
 
   void ChangeAnimationState(string newState)
