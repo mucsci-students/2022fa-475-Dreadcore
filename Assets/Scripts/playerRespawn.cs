@@ -13,8 +13,6 @@ public class playerRespawn : MonoBehaviour
    public void Respawn()
    {
        transform.position = currentCheckpoint.position;
-       Debug.Log("test");
-       //call respawn function in player to restore health, + health items (when created)
        playerHealth.Respawn();
    }
    private void OnTriggerEnter2D(Collider2D collision)

@@ -8,9 +8,6 @@ TagManager:
   - PlayerBullet
   - MouseCancel
   - Pit
-  - Checkpoint
-  - Monster
-  - hpItem
   layers:
   - Default
   - TransparentFX
@@ -54,15 +51,12 @@ TagManager:
   - name: Background
     uniqueID: 1500057265
     locked: 0
+  - name: Middleground
+    uniqueID: 3428187329
+    locked: 0
   - name: Platforms
     uniqueID: 1187420345
     locked: 0
   - name: Foreground
     uniqueID: 2615230285
-    locked: 0
-  - name: Enemy
-    uniqueID: 1730301719
-    locked: 0
-  - name: Player
-    uniqueID: 2783177625
     locked: 0

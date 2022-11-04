@@ -6,7 +6,7 @@ using TMPro;
 
 public class playerDataT : MonoBehaviour
 {
-    [SerializeField] public int health, maxHealth = 10, damage, healthItem;
+    [SerializeField] public int health, maxHealth = 10, damage;
     private playerRespawn respPlayer;
 
     private void Awake()
@@ -26,51 +26,40 @@ public class playerDataT : MonoBehaviour
     //keep track of when our player takes damage
     public void TakeDamage(int damageAmt)
     {
-        Debug.Log("taking Damage from something");
         health -= damageAmt;
         if (health <= 0)
         {
-            //others scripts Respawn for checkpoints etc.
             respPlayer.Respawn();
         }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        /*if (collider.gameObject.Tag == "enemy")
+        {
+            
+        }*/
     }
     public void Respawn()
     {
         health = maxHealth;
         
     }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.CompareTag("Monster"))
-        {
-            Debug.Log("apparently running into the monster constantly.");
-            TakeDamage(1);
-        }
-    }
-    public void UseHealthItem()
-    {
-        if (health >= maxHealth)
-        {
-            healthItem = healthItem;
-         
-        }
-        else if(health <= maxHealth)
-        {
-            health += 25;
-            if (health >= maxHealth)
-            {
-                health = maxHealth;
-            }
-            healthItem--;
-        }
-    }
+
+
+
+
+
+
+
+
+
+
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("h"))
-        {
-            UseHealthItem();
-        }
+        
     }
 }

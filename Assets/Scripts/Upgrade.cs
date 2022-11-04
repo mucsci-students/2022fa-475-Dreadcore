@@ -13,6 +13,7 @@ public class Upgrade : MonoBehaviour
   // Update is called once per frame
   void OnTriggerEnter(Collider other)
   {
+    Debug.Log("Collision detected!");
     if(other.gameObject.tag == "Player")
     {
       if (doubleJump)
