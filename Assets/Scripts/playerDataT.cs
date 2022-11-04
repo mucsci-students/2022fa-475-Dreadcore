@@ -49,19 +49,22 @@ public class playerDataT : MonoBehaviour
     }
     public void UseHealthItem()
     {
-        if (health >= maxHealth)
+        if (healthItem > 0)
         {
-            healthItem = healthItem;
-         
-        }
-        else if(health <= maxHealth)
-        {
-            health += 25;
             if (health >= maxHealth)
             {
-                health = maxHealth;
+                healthItem = healthItem;
+            
             }
-            healthItem--;
+            else if(health <= maxHealth)
+            {
+                health += 25;
+                if (health >= maxHealth)
+                {
+                    health = maxHealth;
+                }
+                healthItem--;
+            }
         }
     }
 

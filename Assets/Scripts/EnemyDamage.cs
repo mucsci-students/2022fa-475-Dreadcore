@@ -5,12 +5,15 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public playerDataT plyrData;
-    public int health = 2;
+    public HealthBarBehavior Healthbar;
+    public int health;
+    public int maxHealth  = 5;
     public int damage = 1;
     // Start is called before the first frame update
     void Start()
     {
-        
+        health = maxHealth;
+        Healthbar.SetHealth(health, maxHealth);
     }
 
     // Update is called once per frame
@@ -39,6 +42,7 @@ public class EnemyDamage : MonoBehaviour
     public void AITakeDamage(int damage)
     {
         health = health - damage;
+        Healthbar.SetHealth(health, maxHealth);
         if (health <= 0)
         {
             Destroy(gameObject);
