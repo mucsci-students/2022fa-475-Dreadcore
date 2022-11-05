@@ -9,9 +9,14 @@ public class playerDataT : MonoBehaviour
     [SerializeField] public int health, maxHealth = 10, damage, healthItem;
     private playerRespawn respPlayer;
 
+
+    //health bar
+    public playerHealthBar Healthbar;
+
     private void Awake()
     {
         respPlayer = GetComponent<playerRespawn>();
+        
     }
     
     
@@ -19,15 +24,19 @@ public class playerDataT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Healthbar.SetHealth(health, maxHealth);
         health = maxHealth;
-    }
+        Healthbar.SetHealth(health, maxHealth);
 
+    }
+  
 
     //keep track of when our player takes damage
     public void TakeDamage(int damageAmt)
     {
         Debug.Log("taking Damage from something");
         health -= damageAmt;
+        Healthbar.SetHealth(health, maxHealth);
         if (health <= 0)
         {
             //others scripts Respawn for checkpoints etc.
@@ -37,6 +46,7 @@ public class playerDataT : MonoBehaviour
     public void Respawn()
     {
         health = maxHealth;
+        Healthbar.SetHealth(health, maxHealth);
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -61,8 +71,10 @@ public class playerDataT : MonoBehaviour
                 if (health >= maxHealth)
                 {
                     health = maxHealth;
+                    Healthbar.SetHealth(health, maxHealth);
                 }
                 healthItem--;
+                Healthbar.SetHealth(health, maxHealth);
             }
         }
     }

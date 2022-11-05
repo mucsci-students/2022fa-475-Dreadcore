@@ -12,6 +12,8 @@ public class PlayerMovement3 : MonoBehaviour
   private float speed = 8f;
   public float jumpingPower;
   private bool isFacingRight = true;
+  public AudioSource audioSource;
+  public AudioClip shootingClip;
   
   private bool playerOnGround = false;
   private bool startPose = true;
@@ -150,6 +152,7 @@ public class PlayerMovement3 : MonoBehaviour
         if(dualBeamUnlocked)
           Instantiate(dualBeam, bulletTransform.position, Quaternion.identity);
         else
+          audioSource.PlayOneShot(shootingClip);
           Instantiate(bullet, bulletTransform.position, Quaternion.identity);
       }
 

@@ -5,6 +5,7 @@ using Pathfinding;
 public class EnemyAI : MonoBehaviour
 {
     public Transform target;
+    public Transform spiderTarget;
     public float activateDistance = 50f;
     public float pathUpdateSeconds = 0.5f;
 
