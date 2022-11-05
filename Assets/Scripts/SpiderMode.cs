@@ -30,6 +30,8 @@ public class SpiderMode : MonoBehaviour
   [SerializeField] public Rigidbody2D rb;
   [SerializeField] public Transform groundCheck;
   [SerializeField] public Transform wallCheck;
+  [SerializeField] public Transform wallCheck2;
+
   //[SerializeField] public Transform LWallCheck;
   
   [SerializeField] public LayerMask groundLayer;
@@ -308,7 +310,7 @@ public class SpiderMode : MonoBehaviour
 
   void checkForWalls()
   {
-    hitWall = Physics2D.OverlapCircle(wallCheck.position, 0.2f, groundLayer);
+    hitWall = Physics2D.OverlapCircle(wallCheck.position, 0.2f, groundLayer) && Physics2D.OverlapCircle(wallCheck2.position, 0.2f, groundLayer);
     //if((isFacingRight && !sideways) || (isFacingUp && sideways))
       Rotate();
   }
