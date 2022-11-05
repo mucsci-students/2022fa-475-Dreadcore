@@ -6,7 +6,7 @@ using TMPro;
 
 public class playerDataT : MonoBehaviour
 {
-    [SerializeField] public int health, maxHealth = 10, damage, healthItem, maxHealthItem;
+    [SerializeField] public int health, maxHealth = 10, damage, healthItem;
     private playerRespawn respPlayer;
 
 
@@ -63,6 +63,7 @@ public class playerDataT : MonoBehaviour
             if (health >= maxHealth)
             {
                 healthItem = healthItem;
+            
             }
             else if(health <= maxHealth)
             {
