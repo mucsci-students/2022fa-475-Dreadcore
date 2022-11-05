@@ -6,7 +6,7 @@ using TMPro;
 
 public class playerDataT : MonoBehaviour
 {
-    [SerializeField] public int health, maxHealth = 10, damage, healthItem;
+    [SerializeField] public int health, maxHealth = 10, damage, healthItem, maxHealthItem;
     private playerRespawn respPlayer;
 
 

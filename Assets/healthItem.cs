@@ -10,6 +10,7 @@ public class healthItem : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<playerDataT>().healthItem++;
+            other.gameObject.GetComponent<playerDataT>().maxHealthItem++;
             Destroy(gameObject);
         }
     }
