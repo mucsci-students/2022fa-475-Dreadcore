@@ -3,7 +3,7 @@
 
 # Developed by Matt Giacoponello, Austin An, Trevor Bender
 
-# Author of Player sprite and music: Matt Giacoponello
+# Creator of Player sprite and music: Matt Giacoponello
 
 
 
