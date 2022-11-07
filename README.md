@@ -11,8 +11,7 @@
 - There are no death pits in this game. Don't be afraid to jump down and explore to your heart's content.
 - If you see an area you can't get to, you'll need an upgrade to go there.
 
-# Download for windows https://drive.google.com/file/d/1w8ZYOxQL_KJZO86U_-h2W-Dr93mMCwiN/view?usp=share_link
-# Download for Mac: trying to get it (will have it tomorrow none of us have a mac and having issues getting it up)
+# Download windows + mac files included: https://drive.google.com/file/d/1ofqP-75mj-lZB5YoECzppHDQWqoGOdDZ/view?usp=share_link
 
 # Post-release updates
 
