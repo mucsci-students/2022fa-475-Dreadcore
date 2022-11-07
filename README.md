@@ -1,7 +1,7 @@
 # 2022fa-475-Dreadcore
 
 
-Developed by Matt Giacoponello, Austin An, Trevor Bender
+# Developed by Matt Giacoponello, Austin An, Trevor Bender
 
 # Author of Player sprite and music: Matt Giacoponello
 
