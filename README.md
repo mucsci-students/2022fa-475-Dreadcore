@@ -15,4 +15,10 @@
 # Download for Mac: trying to get it (will have it tomorrow none of us have a mac and having issues getting it up)
 
 # Post-release updates
-- Increased the number of enemies in Talakor, Forgotten City. (A.K.A. The first area)
+
+Update 1.1:
+- Fixed a bug where spider mode would occasionally get stuck in a building while returning to torso.
+- Fixed a bug where the Dreadcore (A.K.A. the boss) would not breathe fire in phase 2.
+- Increased the Dreadcore's health to prevent players from killing it while it's transitioning into phase 2.
+- Increased the number of platforms next to the Dreadcore, to allow players to have SOME breathing room.
+
