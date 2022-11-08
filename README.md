@@ -10,7 +10,8 @@
 # Tips
 - There are no death pits in this game. Don't be afraid to jump down and explore to your heart's content.
 - If you see an area you can't get to, you'll need an upgrade to go there.
-- Press H to use a battery and heal. You start out with 3. But there are 2 others hidden throughout the map. Collecting a battery will increase your maximum capacity by 
+- Press H to use a battery and heal. You start out with 3. But there are 2 others hidden throughout the map. Collecting a battery will increase your maximum capacity by +1
+- If you get stuck please check out our discord channel #group4-discussion, there are some helpful videos that may cover two spots players may likely get stuck. However we will answer any questions you guys have if theres anything else!
 
 # Download windows + mac files included: https://drive.google.com/file/d/1ofqP-75mj-lZB5YoECzppHDQWqoGOdDZ/view?usp=share_link
 - Windows users: download folder, unzip, use windows folder and run the executeable.
