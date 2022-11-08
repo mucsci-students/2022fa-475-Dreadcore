@@ -9,8 +9,6 @@
 - CONTROLS ARE INSIDE OF THE OPTIONS MENU YOU CAN ENTER THE OPTIONS SCREEN DURING THE MAIN MENU, AND PAUSING (ESCAPE KEY) THE GAME AND CLICKING OPTIONS. 
 - THE GAME IS BEST PLAYED @ 1920X1080 RESOLUTION
 - If you get stuck please check out our discord channel #group4-discussion, there are some helpful videos that may cover two spots players may likely get stuck.  However we will answer any questions you guys have if theres anything else!
-- If stuck after using spider mode keep pressing F to return to the players body.
-- Weird bug can happen when interacting with the portal button in the game, sometimes a message to press E pops up sometimes it doesn't. Press E on the button to activate it.
 
 # Tips
 - There are no death pits in this game. Don't be afraid to jump down and explore to your heart's content.
@@ -22,10 +20,10 @@
 - Windows users: download folder, unzip, use windows folder and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
-# The 1.1.2 Update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1BF7Bt-UgRQ4kiSwuaLKSSgJSQpJFoGjA/view?usp=share_link
+# The 1.1.3 Update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
 - The Mac build will be available in the near future.
 
-# Post-release updates
+# Post-release patch notes
 
 Update 1.1:
 - Mac build is now available! (Although none of us have Macs to test it out, so hopefully it works.)
@@ -37,5 +35,10 @@ Update 1.1:
 Update 1.1.2 - Prepare to Die!
 - Made some UI changes. Particularly the death screen. You'll find that it's a lot more Souls-like!
 - Made it so the boss's health resets every time you die. Now you'll actually have to git gud! >:)
-- Added 2 Mega Dragon heads at the top of the boss room. This'll prevent players from staying in 1 spot for too long.
+- Added 2 Mega Dragon Sentries at the top of the boss room. This'll prevent players from staying in 1 spot for too long.
+
+Update 1.1.3
+- Fixed an exploit where the Dragon Sentries would permanently shut off when the player activates Spider Mode while in the turret's range, leaves the Sentry attack zone while in Spider Mode, and then returns to torso.
+- A prompt now shows up at the beginning of the game, telling the player how to heal.
+- Made the super janky staircase, right before the spider mode upgrade, slightly less janky.
 
