@@ -22,6 +22,8 @@
 - Windows users: download folder, unzip, use windows folder and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
+# The 1.1.2 Update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1BF7Bt-UgRQ4kiSwuaLKSSgJSQpJFoGjA/view?usp=share_link
+
 # Post-release updates
 
 Update 1.1:
@@ -30,4 +32,9 @@ Update 1.1:
 - Fixed a bug where the Dreadcore (A.K.A. the boss) would not breathe fire in phase 2.
 - Increased the Dreadcore's health to prevent players from killing it while it's transitioning into phase 2.
 - Increased the number of platforms next to the Dreadcore, to allow players to have SOME breathing room.
+
+Update 1.1.2 - Prepare to Die!
+- Made some UI changes. Particularly the death screen. You'll find that it's a lot more Souls-like!
+- Made it so the boss's health resets every time you die. Now you'll actually have to git gud! >:)
+- Added 2 Mega Dragon heads at the top of the boss room. This'll prevent players from staying in 1 spot for too long.
 
