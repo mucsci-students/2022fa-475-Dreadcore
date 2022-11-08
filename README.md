@@ -16,12 +16,12 @@
 - Press H to use a battery and heal. You start out with 3. But there are 2 others hidden throughout the map. Collecting a battery will increase your maximum capacity by +1
 - F key and left shift are used regarding spider mode. F will allow you to morph and return back to player, left shift for wall dropping.
 
-# Download windows + mac files included: https://drive.google.com/file/d/1ofqP-75mj-lZB5YoECzppHDQWqoGOdDZ/view?usp=share_link
+# Version 1.1.3: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
+- The Mac build will be available in the near future.
+
+# Version 1.1: Download windows + mac files included: https://drive.google.com/file/d/1ofqP-75mj-lZB5YoECzppHDQWqoGOdDZ/view?usp=share_link
 - Windows users: download folder, unzip, use windows folder and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
-
-# The 1.1.3 Update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
-- The Mac build will be available in the near future.
 
 # Post-release patch notes
 
