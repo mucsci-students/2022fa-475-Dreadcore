@@ -6,7 +6,7 @@
 # Creator of Player sprite and music (besides main menu theme): Matt Giacoponello
 
 # Note to reviewers:
-- CONTROLS ARE INSIDE OF THE OPTIONS MENU YOU CAN ENTER THE OPTIONS SCREEN DURING THE MAIN MENU, AND PAUSING THE GAME AND CLICKING OPTIONS. 
+- CONTROLS ARE INSIDE OF THE OPTIONS MENU YOU CAN ENTER THE OPTIONS SCREEN DURING THE MAIN MENU, AND PAUSING (ESCAPE KEY) THE GAME AND CLICKING OPTIONS. 
 - If you get stuck please check out our discord channel #group4-discussion, there are some helpful videos that may cover two spots players may likely get stuck.  However we will answer any questions you guys have if theres anything else!
 There is also a weird text bug with the interact button, there will be a button within the game press E to interact with it.
 - If stuck after using spider mode keep pressing F to return to the players body.
