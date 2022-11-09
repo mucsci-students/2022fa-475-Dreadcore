@@ -23,7 +23,6 @@
 
 # Do NOT Review this version (1.1.3), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
 - Download the zip file, unzip, use windows folder, and run the executeable.
-# Post-release patch notes
 
 # Recommended Sound Settings:
 - Master Volume: 70
