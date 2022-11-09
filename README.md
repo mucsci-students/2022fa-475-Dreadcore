@@ -17,7 +17,7 @@
 - F key and left shift are used regarding spider mode. F will allow you to morph and return back to player, left shift for wall dropping.
 
 # Announcement:
-Since updating the game post-launch isn't fair to the other students, I will not make any more updates. I have enormous passion for this game, but I don't want to be unfair to the rest of the class, so I apologize. Version 1.1 is still up for review, so review that one. You can play the later version afterwards for fun.
+Since updating the game post-launch isn't fair to the other students, I will not make any more updates. I have enormous passion for this game, but I don't want to be unfair to the rest of the class, so I apologize. Version 1.1 is still up for review, so review that one. You can play the later version afterwards for fun. Stay tuned for an eventual Steam release within the next 2 years or so!
 
 # Review this version (1.1): Download windows + mac files included: https://drive.google.com/file/d/1ofqP-75mj-lZB5YoECzppHDQWqoGOdDZ/view?usp=share_link
 - Windows users: download and unzip, use windows folder, and run the executeable.
