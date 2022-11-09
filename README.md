@@ -24,7 +24,7 @@
 ## Do NOT Review this version (1.1.3), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
 - Download the zip file, unzip, use windows folder, and run the executeable.
 
-###### Recommended Sound Settings:
+### Recommended Sound Settings:
 - Master Volume: 70
 - Music: 80
 - SFX: 70
@@ -32,20 +32,19 @@
 ### Post-release Patch Notes
 - Just a reminder, if you're in CSCI 475, _**DO NOT REVIEW THE UPDATES!**_ They were released after the due date, and it wouldn't be fair if these were reviewed. These updates are purely for fun. So after writing the review for 1.0, feel free to enjoy! :)
 
-**Update 1.1:**
+###### **Update 1.1:**
 - Mac build is now available! (Although none of us have Macs to test it out, so hopefully it works.)
 - Fixed a bug where spider mode would occasionally get stuck in a building while returning to torso.
 - Fixed a bug where the Dreadcore (A.K.A. the boss) would not breathe fire in phase 2.
 - Increased the Dreadcore's health to prevent players from killing it while it's transitioning into phase 2.
 - Increased the number of platforms next to the Dreadcore, to allow players to have SOME breathing room.
 
-**Update 1.1.2 - Prepare to Die!**
+###### **Update 1.1.2 - Prepare to Die!**
 - Made some UI changes. Particularly the death screen. You'll find that it's a lot more Souls-like!
 - Made it so the boss's health resets every time you die. Now you'll actually have to git gud! >:)
 - Added 2 Mega Dragon Sentries at the top of the boss room. This'll prevent players from staying in 1 spot for too long.
 
-**Update 1.1.3:**
+###### **Update 1.1.3:**
 - Fixed an exploit where the Dragon Sentries would permanently shut off when the player activates Spider Mode while in the turret's range, leaves the Sentry attack zone while in Spider Mode, and then returns to torso.
 - A prompt now shows up at the beginning of the game, telling the player how to heal.
 - Made the super janky staircase, right before the spider mode upgrade, slightly less janky.
-
