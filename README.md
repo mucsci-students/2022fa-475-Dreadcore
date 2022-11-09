@@ -24,12 +24,12 @@
 # Do NOT Review this version (1.1.3), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
 - Download the zip file, unzip, use windows folder, and run the executeable.
 
-# Recommended Sound Settings:
+###### Recommended Sound Settings:
 - Master Volume: 70
 - Music: 80
 - SFX: 70
 
-# Post-release Patch Notes
+###### Post-release Patch Notes
 - Just a reminder, if you're in CSCI 475, _**DO NOT REVIEW THE UPDATES!**_ They were released after the due date, and it wouldn't be fair these were reviewed. These updates are purely for fun. So after writing the review for 1.0, feel free to enjoy! :)
 
 Update 1.1:
