@@ -19,7 +19,7 @@
 # Announcement:
 Since updating the game post-launch isn't fair to the other students, I will not make any more updates. I have enormous passion for this game, but I don't want to be unfair to the rest of the class, so I apologize. The original version will be up for review shortly, so review that one. You can play the later version afterwards for fun. Stay tuned for an eventual Steam release within the next 2 years or so!
 
-# Review this version (1.0): Download windows + mac files included: <No Link Yet>
+# Review this version (1.0): Download windows + mac files included: (No Link Yet)
 - Windows users: download and unzip, use windows folder, and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
