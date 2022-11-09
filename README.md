@@ -29,7 +29,7 @@
 - Music: 80
 - SFX: 70
 
-###### Post-release Patch Notes
+### Post-release Patch Notes
 - Just a reminder, if you're in CSCI 475, _**DO NOT REVIEW THE UPDATES!**_ They were released after the due date, and it wouldn't be fair these were reviewed. These updates are purely for fun. So after writing the review for 1.0, feel free to enjoy! :)
 
 **Update 1.1:**
