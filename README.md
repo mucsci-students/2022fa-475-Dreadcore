@@ -6,6 +6,7 @@
 # Creator of Player sprite and music (besides main menu theme): Matt Giacoponello
 
 # Note to reviewers and anyone trying the game:
+- IF YOU GET STUCK WHILE TRYING TO RETURN BACK TO BODY IN SPIDER MODE KEEP PRESSING F TO RETURN.
 - CONTROLS ARE INSIDE OF THE OPTIONS MENU YOU CAN ENTER THE OPTIONS SCREEN DURING THE MAIN MENU, AND PAUSING (ESCAPE KEY) THE GAME AND CLICKING OPTIONS. 
 - THE GAME IS BEST PLAYED @ 1920X1080 RESOLUTION
 - If you get stuck please check out our discord channel #group4-discussion, there are some helpful videos that may cover two spots players may likely get stuck.  However we will answer any questions you guys have if theres anything else!
