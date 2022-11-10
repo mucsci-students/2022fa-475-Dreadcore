@@ -21,7 +21,7 @@
 - Windows users: download and unzip, use windows folder, and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
-## Do NOT Review this version (1.1.3), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
+## Do NOT Review this version (1.2), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
 - Download the zip file, unzip, use windows folder, and run the executeable.
 
 ### Recommended Sound Settings:
@@ -48,3 +48,14 @@
 - Fixed an exploit where the Dragon Sentries would permanently shut off when the player activates Spider Mode while in the turret's range, leaves the Sentry attack zone while in Spider Mode, and then returns to torso.
 - A prompt now shows up at the beginning of the game, telling the player how to heal.
 - Made the super janky staircase, right before the spider mode upgrade, slightly less janky.
+
+###### **Update 1.2:**
+- Made Zulikoth prettier.
+- Edited the dragon turret attack zones to prevent cheesing the boss in the corner of the map.
+- Fixed an issue where 0 health still showed up as a sliver of health on all health bars.
+- Put the boss health bar at the bottom of the screen, like a Souls boss.
+- Changed the healing button from H to Q.
+- Fixed an issue where healing restored all of your health in Talakor, and 25% of your health in Zulikoth. Now it restores 25% of your health in both locations. 
+- Made the battery icon bigger.
+- Each location briefly displays its name while spawning into it.
+- Changed the UI sounds to be more sci-fi.
