@@ -33,7 +33,6 @@
 - Just a reminder, if you're in CSCI 475, _**DO NOT REVIEW THE UPDATES!**_ They were released after the due date, and it wouldn't be fair if these were reviewed. These updates are purely for fun. So after writing the review for 1.0, feel free to enjoy! :)
 
 ###### **Update 1.1:**
-- Mac build is now available! (Although none of us have Macs to test it out, so hopefully it works.)
 - Fixed a bug where spider mode would occasionally get stuck in a building while returning to torso.
 - Fixed a bug where the Dreadcore (A.K.A. the boss) would not breathe fire in phase 2.
 - Increased the Dreadcore's health to prevent players from killing it while it's transitioning into phase 2.
