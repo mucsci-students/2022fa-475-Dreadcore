@@ -21,7 +21,7 @@
 - Windows users: download and unzip, use windows folder, and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
-## Do NOT Review this version (1.2), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1TVtRGFoJreCnHyjUOxjaClDaUH2YFiIi/view?usp=share_link
+## Do NOT Review this version (1.2), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1vdfLXuBrrTPIEoSiInGnxRKYm8g3aQgU/view?usp=share_link
 - Download the zip file, unzip, use windows folder, and run the executeable.
 
 ### Recommended Sound Settings:
