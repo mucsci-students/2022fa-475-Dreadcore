@@ -74,5 +74,6 @@ Development for Game 3 is starting very soon, so 1.2.1 is the final update for D
 - More upgrades
 - More bosses
 - An actual story
+- Multiple difficulties
 - New Game+ and Random Game+
 - And more...
