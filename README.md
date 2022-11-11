@@ -67,7 +67,7 @@
 - Made certain parts of Talakor look better (more specifically, there were some blocks with less detail, surrounded by more detailed blocks, so I fixed that).
 
 ### Annnouncement: 
-Development for Game 3 is starting very soon, so 1.2.1 is the final update for Dreadcore I'm posting on Github. But after I graduate in December, I will continue working on Dreadcore so it can eventually be uploaded to Steam.
+Development for Game 3 is starting very soon, so 1.2.1 is the final update for Dreadcore I'm posting on Github. But after I graduate in December, I will continue working on Dreadcore so it can eventually be released on Steam.
 
 ### What to expect from the Steam release:
 - More locations
