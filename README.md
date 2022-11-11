@@ -21,7 +21,7 @@
 - Windows users: download and unzip, use windows folder, and run the executeable.
 - Mac users: download and unzip. Allow the file to be executed by changing directory with cd Mac.app/Contents/MacOS. Then run chmod +x Dreadcore. Do ./Dreadcore and got denied by the MacOS antivirus. Went to System Preferences -> Security & Preferences -> General. Then clicked open anyway at the bottom which came up with a popup where I had to click run anyway. (Thank you Justin Stevens!)
 
-## Do NOT Review this version (1.2), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1vdfLXuBrrTPIEoSiInGnxRKYm8g3aQgU/view?usp=share_link
+## Do NOT Review this version (1.2.1), as it was released after the due date. You can play it for fun after reviewing the older one: This update is currently only on Windows. Go here to download it. https://drive.google.com/file/d/1kfjnaQBykD6Meh1QsbBaxfcmyoSPl0-J/view?usp=sharing
 - Download the zip file, unzip, use windows folder, and run the executeable.
 
 ### Recommended Sound Settings:
@@ -58,3 +58,20 @@
 - Made the battery icon bigger.
 - Each location briefly displays its name while spawning into it.
 - Changed the UI sounds to be more sci-fi.
+
+###### **Update 1.2.1**
+- Gave Zulikoth a slight makeover, but not as big as the last one.
+- Fixed a bug where the Resume button wasn't working.
+- Fixed a bug where if you looked at the options menu after after activating the Dreadore's healthbar, you'd be locked into it.
+- Fixed a bug where your battery would heal 5% of your health instead of 25% in Zulikoth.
+- Made certain parts of Talakor look better (more specifically, there were some blocks with less detail, surrounded by more detailed blocks, so I fixed that).
+
+### Annnouncement: 
+Development for Game 3 is starting very soon, so 1.2.1 is the final update for Dreadcore I'm posting on Github. But after I graduate in December, I will continue working on Dreadcore so it can eventually be uploaded to Steam.
+
+### What to expect from the Steam release:
+- More locations
+- More upgrades
+- More bosses
+- An actual story
+- And more...
